@@ -1,0 +1,59 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 500px 1fr 300px;
+  gap: 1rem;
+}
+#emojicount {
+  font-variant-numeric: tabular-nums;
+  font-size: 4rem;
+}
+#bigemoji {
+  font-size: 20rem;
+  user-select: none;
+}
+#store #upgrades {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+#store #upgrades button {
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+#store #powerups {
+  display: flex;
+  flex-direction: column;
+}
+#store #powerups button {
+  padding: 1rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+#emojilist ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+#emojilist li .up {
+  letter-spacing: -15px;
+}
