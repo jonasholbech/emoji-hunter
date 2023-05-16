@@ -6,7 +6,7 @@ export const gameState: {
   framerate: number;
   clickValue: number;
 } = {
-  emojis: 100000000,
+  emojis: 0,
   updatesPerSecond: 10,
   framerate: 1000 / 10, //TODO: not DRY
   clickValue: 1,
