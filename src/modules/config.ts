@@ -1,5 +1,6 @@
 export const version = 0.1;
 
+const updatesPerSecondLocal = 10;
 export const gameState: {
   emojis: number;
   updatesPerSecond: number;
@@ -7,8 +8,8 @@ export const gameState: {
   clickValue: number;
 } = {
   emojis: 0,
-  updatesPerSecond: 10,
-  framerate: 1000 / 10, //TODO: not DRY
+  updatesPerSecond: updatesPerSecondLocal,
+  framerate: 1000 / updatesPerSecondLocal,
   clickValue: 1,
 };
 export const elements: {
